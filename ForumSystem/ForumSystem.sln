@@ -3,9 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{A122850E-CE97-4BE8-94AD-E9A2E4ECB03E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{DDF916B1-E26E-4A54-8948-7BFC3830A67F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{DB9F275F-301F-450D-BA57-0FDF0C5B604D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Common", "ForumSystem.Common\ForumSystem.Common.csproj", "{D4B7E17C-E74C-4276-99F0-1BD8D263B2CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Data", "ForumSystem.Data\ForumSystem.Data.csproj", "{28C04FDE-6312-461C-9B40-75D7C6BE3C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Data.Models", "ForumSystem.Data.Models\ForumSystem.Data.Models.csproj", "{D624FF5F-FF61-44CF-85B4-762F40D2DD02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Web", "ForumSystem.Web\ForumSystem.Web.csproj", "{27F204D6-158F-4AAD-AC3E-C0B05BC4F8C9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4B7E17C-E74C-4276-99F0-1BD8D263B2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B7E17C-E74C-4276-99F0-1BD8D263B2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B7E17C-E74C-4276-99F0-1BD8D263B2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B7E17C-E74C-4276-99F0-1BD8D263B2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C04FDE-6312-461C-9B40-75D7C6BE3C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C04FDE-6312-461C-9B40-75D7C6BE3C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C04FDE-6312-461C-9B40-75D7C6BE3C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C04FDE-6312-461C-9B40-75D7C6BE3C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D624FF5F-FF61-44CF-85B4-762F40D2DD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D624FF5F-FF61-44CF-85B4-762F40D2DD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D624FF5F-FF61-44CF-85B4-762F40D2DD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D624FF5F-FF61-44CF-85B4-762F40D2DD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F204D6-158F-4AAD-AC3E-C0B05BC4F8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F204D6-158F-4AAD-AC3E-C0B05BC4F8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F204D6-158F-4AAD-AC3E-C0B05BC4F8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F204D6-158F-4AAD-AC3E-C0B05BC4F8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28C04FDE-6312-461C-9B40-75D7C6BE3C9F} = {DB9F275F-301F-450D-BA57-0FDF0C5B604D}
+		{D624FF5F-FF61-44CF-85B4-762F40D2DD02} = {DB9F275F-301F-450D-BA57-0FDF0C5B604D}
+		{27F204D6-158F-4AAD-AC3E-C0B05BC4F8C9} = {A122850E-CE97-4BE8-94AD-E9A2E4ECB03E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1833AA4-9FC7-49C0-B97B-8C06A7EDD944}
